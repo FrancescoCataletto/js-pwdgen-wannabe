@@ -9,4 +9,6 @@ const yourName = prompt("Inserisci il nome");
 const surname = prompt("Inserisci il cognome");
 const color = prompt("Inserisci il tuo colore preferito");
 
-console.log(yourName + surname + color);
+const passwordGenerated = yourName+surname+color+22;
+
+console.log(passwordGenerated);
